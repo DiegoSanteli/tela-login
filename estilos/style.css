@@ -28,6 +28,10 @@ section#login {
     overflow: hidden;
     border-radius: 20px;
     box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.726);
+
+
+    transition: width .3s, height .3;
+    transition-timing-function: ease;
 }
 section#login > div#imagem {
     background: url(../imagens/natureza.jpg) no-repeat;
